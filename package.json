@@ -1,19 +1,33 @@
 {
-  "name": "cuarto-desafio",
+  "name": "entrega-18",
   "version": "1.0.0",
-  "description": "Cuarto desafio de CoderHouse",
-  "main": "server.js",
+  "description": "",
+  "author": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "server": "nodemon --inspect ./src/server.js -p 3031"
   },
-  "author": "",
+  "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "firebase-admin": "^11.4.0",
-    "mongoose": "^6.8.0"
+    "autocannon": "7.9.0",
+    "bcrypt": "5.0.1",
+    "bcryptjs": "^2.4.3",
+    "compression": "1.7.4",
+    "connect-mongo": "4.6.0",
+    "cookie-parser": "1.4.6",
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "express-handlebars": "6.0.5",
+    "express-session": "1.17.2",
+    "log4js": "6.5.2",
+    "minimist": "1.2.6",
+    "mongoose": "6.3.0",
+    "nodemailer": "6.7.5",
+    "session-file-store": "1.5.0"
   },
-  "keywords": []
+  "devDependencies": {
+    "eslint": "8.13.0"
+  }
 }
